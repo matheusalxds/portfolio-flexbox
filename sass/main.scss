@@ -1,4 +1,6 @@
-@import 'base';
-@import 'layout';
-@import 'typography';
-@import 'variables';
+@import 'abstracts/variables';
+@import 'base/typography';
+@import 'base/base';
+@import 'components/banner';
+@import 'layout/header';
+@import 'layout/navigation';

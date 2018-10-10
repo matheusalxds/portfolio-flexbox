@@ -1,8 +1,41 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700i");
+body {
+  font-family: 'Roboto Mono', monospace; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  font-family: 'Roboto Mono', monospace; }
+.banner {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #181B24;
+  text-align: center;
+  padding-bottom: 4rem;
+  font-weight: 700; }
+  .banner__title {
+    font-size: 4rem;
+    letter-spacing: .015rem;
+    margin-bottom: .5rem;
+    font-style: italic;
+    text-transform: capitalize; }
+  .banner__jobs {
+    letter-spacing: .015rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: #fff; }
+
+.header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../../img/header-bcg.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column; }
+
+.nav {
+  background-color: #fff; }
