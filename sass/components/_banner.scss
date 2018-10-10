@@ -1,0 +1,32 @@
+.banner {
+  // as flex child
+  flex: 1 0 auto;
+
+  // as a parent
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: $color-dark;
+  text-align: center;
+  padding-bottom: 4rem;
+  font-weight: 700;
+
+  &__container {
+
+  }
+
+  &__title {
+    font-size: 4rem;
+    letter-spacing: .015rem;
+    margin-bottom: .5rem;
+    font-style: italic;
+    text-transform: capitalize;
+  }
+
+  &__jobs {
+    letter-spacing: .015rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: $color-light;
+  }
+}
