@@ -1,0 +1,21 @@
+.btn {
+  &--dark {
+    background-color: $color-dark;
+    color: $color-light;
+
+    &:hover {
+      background-color: $color-light;
+      color: $color-dark;
+    }
+  }
+
+  &--light {
+    background-color: $color-light;
+    color: $color-dark;
+
+    &:hover {
+      background-color: $color-dark;;
+      color: $color-light
+    }
+  }
+}
