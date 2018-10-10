@@ -6,7 +6,7 @@
     max-width: 90vw;
     margin: 2rem auto;
 
-    @media screen and (min-width: 992px){
+    @media screen and (min-width: 992px) {
       display: flex;
       justify-content: space-between;
     }
@@ -33,16 +33,16 @@
       left: -10px;
     }
 
-    @media screen and (min-width: 992px){
-      // grow, shrink,
+    @media screen and (min-width: 992px) {
+      // grow, shrink, basis
       flex: 0 0 calc(50% - 1rem);
     }
   }
 
   &__info {
     margin: 3rem 0;
-    @media screen and (min-width: 992px){
-      // grow, shrink,
+    @media screen and (min-width: 992px) {
+      // grow, shrink, basis
       flex: 0 0 calc(50% - 1rem);
 
       display: flex;
