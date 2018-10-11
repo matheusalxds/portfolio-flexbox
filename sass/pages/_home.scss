@@ -82,13 +82,11 @@
   background-color: $color-section-grey;
   padding: 3rem 0;
 
-
-
   &__center {
     max-width: 90vw;
     margin: 2rem auto;
 
-    @media screen and (min-width: 786px){
+    @media screen and (min-width: 786px) {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -118,12 +116,62 @@
       box-shadow: $box-shadow;
     }
 
-    @media screen and (min-width: 786px){
+    @media screen and (min-width: 786px) {
       flex: 0 0 calc(50% - .5rem);
     }
 
-    @media screen and (min-width: 992px){
+    @media screen and (min-width: 992px) {
       flex: 0 0 calc(33.3333% - .25rem);
+    }
+  }
+
+  &__title {
+    text-align: center;
+    background-image: url(../../img/title-bcg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.section-numbers {
+  background-image: linear-gradient(rgba($color-dark, .3), rgba($color-dark, .3)), url(../../img/numbers-bcg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $color-light;
+
+  &__center {
+    max-width: 95vw;
+    margin: 2rem auto;
+
+    @media screen and (min-width: 576px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  &__num {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  &__icon {
+    font-size: 3rem;
+  }
+
+  &__single {
+    margin: 2rem auto;
+    text-align: center;
+    transition: all .4s ease-in;
+    padding: 2rem 0;
+
+    @media screen and (min-width: 576px) {
+      flex: 0 0 calc(50% - .5rem);
+    }
+
+    @media screen and (min-width: 992px) {
+      flex: 0 0 calc(25% - .5rem);
     }
   }
 
