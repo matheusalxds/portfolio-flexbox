@@ -3,3 +3,22 @@
 body {
   font-family: 'Roboto Mono', monospace;
 }
+
+.heading-1 {
+  font-size: 4rem;
+  letter-spacing: .5rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.heading-2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem 0;
+  letter-spacing: .2rem;
+}
+
+.paragraph {
+
+}
