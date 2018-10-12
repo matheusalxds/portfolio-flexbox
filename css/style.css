@@ -207,3 +207,17 @@ body {
     background-image: url(../../img/title-bcg.svg);
     background-position: center;
     background-repeat: no-repeat; }
+
+.section-projects {
+  padding: 3rem;
+  background-color: #fff; }
+  .section-projects__title {
+    text-align: center;
+    background-image: url(../../img/title-bcg.svg);
+    background-position: center;
+    background-repeat: no-repeat; }
+  .section-projects__center {
+    max-width: 90vw;
+    margin: 2rem auto; }
+  .section-projects__single {
+    margin: 2rem auto; }
