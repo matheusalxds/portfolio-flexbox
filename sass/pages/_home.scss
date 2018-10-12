@@ -182,3 +182,12 @@
     background-repeat: no-repeat;
   }
 }
+
+.section-projects {
+  &__title {
+    text-align: center;
+    background-image: url(../../img/title-bcg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
