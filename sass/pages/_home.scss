@@ -264,10 +264,33 @@
 }
 
 .section-contact {
+  background: $color-section-grey;
+  padding: 3rem 0;
+
+  &__center {
+    max-width: 80vw;
+    margin: 2rem auto;
+  }
+
   &__title {
     text-align: center;
     background-image: url(../../img/title-bcg.svg);
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  &__btn {
+    display: block;
+    padding: .5rem 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    transition: all .5s linear;
+  }
+
+  &__icon {
+    margin-right: 1rem;
   }
 }
