@@ -262,3 +262,12 @@
     }
   }
 }
+
+.section-contact {
+  &__title {
+    text-align: center;
+    background-image: url(../../img/title-bcg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

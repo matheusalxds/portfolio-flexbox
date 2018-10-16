@@ -264,3 +264,9 @@ body {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap; } }
+
+.section-contact__title {
+  text-align: center;
+  background-image: url(../../img/title-bcg.svg);
+  background-position: center;
+  background-repeat: no-repeat; }
