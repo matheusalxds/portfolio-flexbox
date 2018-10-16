@@ -1,8 +1,13 @@
 @import 'abstracts/variables';
+
 @import 'base/typography';
 @import 'base/base';
+
 @import 'components/banner';
 @import 'components/button';
+@import 'components/form';
+
 @import 'layout/header';
 @import 'layout/navigation';
+
 @import 'pages/home';
