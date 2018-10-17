@@ -96,6 +96,19 @@ body {
 .nav {
   background-color: #fff; }
 
+.footer {
+  background-color: #181b24;
+  padding: 3rem 0; }
+  .footer__icons {
+    display: flex;
+    justify-content: space-around; }
+  .footer__icon {
+    font-size: 2rem;
+    color: #fff;
+    transition: all .4s linear; }
+    .footer__icon:hover {
+      color: #899495; }
+
 .section-about {
   padding: 2rem 0;
   background-color: #ffffff; }
