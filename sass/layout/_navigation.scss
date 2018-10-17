@@ -1,3 +1,86 @@
 .nav {
   background-color: $color-light;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: .25rem 1rem;
+    border-bottom: 1px solid $color-dark;
+  }
+
+  &__btn {
+    font-size: 3rem;
+    align-self: center;
+    color: $color-grey;
+  }
+
+  &__links {
+    list-style-type: none;
+    background-color: $color-grey;
+  }
+
+  &__single-link {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    font-style: italic;
+    text-transform: capitalize;
+    color: $color-orange;
+    transition: all 1s linear;
+
+    &:hover {
+      background: $color-light;
+      padding-left: 1.5rem;
+    }
+  }
+
+  &__links {
+    height: 0;
+    overflow: hidden;
+    transition: all 2s linear;
+  }
+
+  &__show-links {
+    height: 288px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid $color-dark;
+  }
+
+  .nav__header {
+    border: none;
+  }
+
+  .nav__btn {
+    display: none;
+  }
+
+  .nav__links {
+    // as a child
+    background: transparent;
+    height: auto;
+    flex: 1 0 auto;
+
+    //  as a parent
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+  }
+
+  .nav__single-link {
+    background-color: transparent;
+    flex: 1 0 100px;
+
+    &:hover {
+      padding-left: 1rem;
+      color: $color-dark;
+    }
+  }
 }

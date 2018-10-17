@@ -1,5 +1,5 @@
 document.querySelector('.nav__btn').addEventListener('click', showNav);
 
 function showNav() {
- document.querySelector('.nav__links').classList.toggle('show__links')
+ document.querySelector('.nav__links').classList.toggle('nav__show-links')
 }
